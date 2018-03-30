@@ -1,21 +1,20 @@
-<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
-         version="2.0">
- 
-     <tlib-version>1.0</tlib-version>
-     <short-name>Custom Date</short-name>
-     <uri>CustomDate</uri>
-  
-     <tag>
-         <name>cdate</name>
-         <tag-class>com.bala.springmvc.custom.tag.CustomDateTag</tag-class>
-         <body-content>empty</body-content>
-         <attribute>
-             <name>pattern</name>
-             <type>java.lang.String</type>
-             <required>false</required>
-             <rtexprvalue>true</rtexprvalue>
-         </attribute>
-     </tag>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+	version="2.0">
+
+	<tlib-version>1.0</tlib-version>
+	<short-name>Custom Date</short-name>
+	<uri>CustomDate</uri>
+
+	<tag>
+		<name>cdate</name>
+		<tag-class>com.bala.springmvc.custom.tag.CustomDateTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>pattern</name>
+			<type>java.lang.String</type>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
 </taglib>
